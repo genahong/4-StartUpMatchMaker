@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+}
+
+body {margin: 0;}
+
+header, footer {background-color: #191919;}
+
+
+h1 {color: #E5E028;
+	font-size: 40px;
+	padding-left: 40px;
+	padding-top: 40px;
+	font-family: Bitter;
+	margin: 0;}
+
+header {
+	overflow: hidden; 
+	border-bottom: 5px solid #FFFF00;
+}
+
+nav {font-family: helvetica;
+	font-size: 20px;
+	float: right;
+	}
+
+li {list-style-type: none;
+	display: inline-block;}
+
+.nav {
+	position: relative;
+/*	top: -55px;*/
+	text-decoration: none;
+	color: white;
+	margin-right: 35px;
+}
+
+
+#brains {
+	padding:20px 0px;
+	margin: 0px;
+	background-color: #D3D3D3;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+	font-family: Bitter;}
+
+
+p {
+	margin: 0px;
+	line-height: 150%;
+	font-family: helvetica;
+	}
+
+h4 {font-family: helvetica;
+	font-size: 40px;
+	margin:10px;
+}
+
+#hero {
+	background-image: url("coworking.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+		}
+
+aside {margin-right: 20%;
+		margin-top: 10%;
+		float: right;
+		height: 300px;
+		width: 400px;
+		background-color: rgba(255,255,255,0.5);
+		padding: 20px;
+		text-align: center;
+		box-shadow: 2px 2px 2px black;}
+
+
+.button {font-family: Oswald;
+		color: black;
+		background-color: yellow;
+		padding: 10px 10px;
+		text-decoration: none;
+		margin-top: 20px;
+		width: 200px;
+		text-align: center;
+		border-radius: 5px;
+		display: inline-block;
+		opacity: 1;
+		z-index: 2;
+		box-shadow: 0px 4px 0px #888888;
+
+}
+
+.find {
+	font-family: Oswald;}
+
+h3 {
+	font-size: 40px;
+	}
+
+.calltoactions {font-family: Bitter;
+				background-color: white;
+				width: 33.33%;
+				float:left;
+				border: 10px solid white;
+				text-align: center;
+				padding: 20px 0px;
+				margin: 20px 0px;}
+
+.borderline {
+	border-right: 2px solid gray;} 
+	/*	don't know why the line is fading out towards the ends */
+
+					
+footer {
+	clear:left;
+	color:white;
+	padding: 40px;}
+
+.questions {
+	width: 60%;
+	margin-left: 80px;}
+
+
+.grey {
+	background-color: #D3D3D3;}
+
+#taste {
+	color: gray;
+	text-decoration: line-through;}
+
+#are {
+	border-bottom: 1px solid yellow;
+	padding: 1px; 
+
+	}
+
+
+
+
+
